@@ -1,1 +1,1 @@
-import '../adapters/in/http/frameworks/express/routes/index'
+import '../adapters/in/http/frameworks/express/routes/'

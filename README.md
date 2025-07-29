@@ -42,14 +42,14 @@ A __Arquitetura Hexagonal__, também conhecida como *Ports and Adapters*, é uma
 <br/>
 
 ### Diagrama de Contexto
-![Diagrama de Contexto](.github/images/Diagramas%20c4%20model%20eng%20soft%20II-Sistema.drawio.png)
+<img src="./github/diagrama-de-contexto.png" alt="Diagrama de contexto do sistema." />
 
 ---
 
 ### Diagrama de Container
-![Diagrama de Container](.github/images/Diagramas%20c4%20model%20eng%20soft%20II-Sistema%20de%20locação.drawio.png)
+<img src="./github/diagrama-de-container.png" alt="Diagrama de container do sistema." />
 
 ---
 
 ### Diagrama de Componente
-![Diagrama de Componente](.github/images/Diagramas%20c4%20model%20eng%20soft%20II-API.png)
+<img src="./github/diagrama-de-componente.png" alt="Diagrama de componente do sistema." />
