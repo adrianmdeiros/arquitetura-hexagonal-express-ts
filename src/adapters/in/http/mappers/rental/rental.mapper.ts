@@ -1,5 +1,5 @@
 import { injectable } from "tsyringe"
-import { Rental } from "../../../../../application/core/domain/rental"
+import { Rental } from "../../../../../application/domain/rental"
 import { RentalRequest } from "../../dtos/in/rental-request.dto"
 import { RentalResponse } from "../../dtos/out/rental-response.dto"
 

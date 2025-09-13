@@ -1,6 +1,6 @@
 import { inject, injectable } from "tsyringe";
-import { RentalServiceInputPort } from "../../ports/in/rental.service.input.port";
-import { RentalRepositoryOutputPort } from "../../ports/out/rental.repository.output.port";
+import { RentalServiceInputPort } from "../ports/in/rental.service.input.port";
+import { RentalRepositoryOutputPort } from "../ports/out/rental.repository.output.port";
 import { Rental } from "../domain/rental";
 import { RentalItem } from "../domain/rental-item";
 

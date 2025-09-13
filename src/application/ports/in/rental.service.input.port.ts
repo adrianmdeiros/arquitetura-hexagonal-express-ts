@@ -1,5 +1,6 @@
-import { Rental } from "../../core/domain/rental";
-import { RentalItem } from "../../core/domain/rental-item";
+import { Rental } from "../../domain/rental"
+import { RentalItem } from "../../domain/rental-item"
+
 
 export interface RentalServiceInputPort {
     create(rental: Rental): Promise<Rental>

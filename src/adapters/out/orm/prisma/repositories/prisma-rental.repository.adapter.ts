@@ -1,9 +1,9 @@
 import { PrismaClient } from "@prisma/client";
-import { Rental } from "../../../../../application/core/domain/rental";
-import { RentalItem } from "../../../../../application/core/domain/rental-item";
+import { Rental } from "../../../../../application/domain/rental";
+import { RentalItem } from "../../../../../application/domain/rental-item";
 import { RentalRepositoryOutputPort } from "../../../../../application/ports/out/rental.repository.output.port";
-import { Customer } from "../../../../../application/core/domain/customer";
-import { GamePlatform } from "../../../../../application/core/domain/game-platform";
+import { Customer } from "../../../../../application/domain/customer";
+import { GamePlatform } from "../../../../../application/domain/game-platform";
 import { inject, injectable } from "tsyringe";
 
 @injectable()
