@@ -1,4 +1,4 @@
-import { Rental } from '../../domain/rental';
+import { Rental } from '../../../domain/rental';
 
 export interface RentalRepositoryOutputPort {
     save(rental: Rental): Promise<Rental>

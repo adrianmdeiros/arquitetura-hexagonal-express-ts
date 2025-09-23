@@ -1,5 +1,5 @@
-import { Customer } from "../../../../../application/domain/customer"
-import { RentalItem } from "../../../../../application/domain/rental-item"
+import { Customer } from "../../../../../domain/customer"
+import { RentalItem } from "../../../../../domain/rental-item"
 
 export class RentalResponse {
     constructor(

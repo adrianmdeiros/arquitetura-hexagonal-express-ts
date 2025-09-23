@@ -1,5 +1,5 @@
-import { Rental } from "../../domain/rental"
-import { RentalItem } from "../../domain/rental-item"
+import { Rental } from "../../../domain/rental"
+import { RentalItem } from "../../../domain/rental-item"
 
 
 export interface RentalServiceInputPort {

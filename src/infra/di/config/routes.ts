@@ -1,0 +1,1 @@
+import '../../../adapters/in/http/frameworks/express/routes'

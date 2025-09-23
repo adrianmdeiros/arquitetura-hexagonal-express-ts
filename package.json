@@ -4,13 +4,13 @@
   "description": "A Arquitetura Hexagonal, também conhecida como *Ports and Adapters*, é uma abordagem de design que visa isolar o núcleo da aplicação das dependências externas, como bancos de dados, interfaces de usuário, serviços externos, entre outros. Isso facilita a manutenção, teste e evolução do software.",
   "main": "main.js",
   "prisma": {
-    "seed": "ts-node --transpile-only src/adapters/out/orm/prisma/database/seed.ts"
+    "seed": "ts-node --transpile-only src/infra/prisma/database/seed.ts"
   },
   "scripts": {
     "prisma:seed": "npx prisma db seed",
-    "prisma:migrate": "npx prisma migrate dev --schema=./src/adapters/out/orm/prisma/schema.prisma",
-    "prisma:studio": "npx prisma studio --schema=./src/adapters/out/orm/prisma/schema.prisma",
-    "prisma:generate": "npx prisma generate --schema=./src/adapters/out/orm/prisma/schema.prisma",
+    "prisma:migrate": "npx prisma migrate dev --schema=./src/infra/prisma/schema.prisma",
+    "prisma:studio": "npx prisma studio --schema=./src/infra/prisma/schema.prisma",
+    "prisma:generate": "npx prisma generate --schema=./src/infra/prisma/schema.prisma",
     "dev": "npm run prisma:generate && tsx watch src/main.ts",
     "start": "node dist/main.js",
     "build": "tsup src/main.ts"
